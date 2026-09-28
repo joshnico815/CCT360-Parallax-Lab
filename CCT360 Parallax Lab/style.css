@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  scroll-behavior: smooth; 
+}
+
+body {
+  color: #ffffff;
+  background: #ffffff;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+li {
+  list-style-type: none;
+}
+
+li a{
+    position: relative;
+    color: white;
+    font-weight: 300;
+}
+
+.parallax {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+}
+
+.hero {
+  background-image: url("images/frontpage.jpg");
+}
+
+.First {
+  background-image: url("images/First.jpeg");
+}
+
+.Second {
+  background-image: url("images/Second.jpg");
+}
+
+.Third {
+  background-image: url("images/Third.jpg");
+}
+
+.Fourth {
+  background-image: url("images/Fourth.jpg");
+}
+
+.Fifth {
+  background-image: url("images/Fifth.jpg");
+}
+
+.Sixth {
+  background-image: url("images/Sixth.jpeg");
+}
+
+.Seventh {
+  background-image: url("images/Seventh.jpg");
+}
+
+.Eighth {
+  background-image: url("images/Eighth.jpg");
+}
+
+.Nineth {
+  background-image: url("images/Nineth.jpg");
+}
+
+.content {
+  min-height: 20vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  padding: 60px;
+  background: #ff0000;
+}
+
+.card {
+  background: rgb(255, 0, 0);
+
+  padding: 40px;
+
+  border-radius: 16px;
+
+  backdrop-filter: blur(6px);
+
+  max-width: 1000px;
+
+}
+
+h1, h2 {
+  margin-bottom: 15px;
+  color: white;
+  font-size:xx-large;
+  text-align: center;
+}
+
+p {
+  line-height: 1.6;
+  color: white;
+  font-size: x-large;
+}
